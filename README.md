@@ -74,8 +74,8 @@ document.addEventListener("keydown", function(event)): captures the user's guess
 
 No installation is necessary. Simply open the index.html file in a web browser to play the game.
 
-1. Visit [Deployed Application](https://mmoghal.github.io/fast-crime/) for Password Generator
+1. Visit [Deployed Application](https://mmoghal.github.io/nebulous-ring/) for Word Guessing Game
 
 2. Application Image
 
-![alt Image of the application](https://github.com/mmoghal/fast-crime/blob/main/pw.png)
+![alt Image of the application](https://github.com/mmoghal/nebulous-ring/blob/main/wgg.png)
