@@ -24,7 +24,21 @@ The game is built using HTML, CSS, and JavaScript. The user interface is simple 
 
 ## Technical Details
 
-Variables
+The first block of code defines variables that reference specific HTML elements on the page.
+
+The second block of code defines variables to be used in the game such as the possible words to be guessed, the current word, the index of the current word, an array of guessed letters, the number of remaining guesses, and the number of wins and losses.
+
+The startGame() function initializes the game by selecting a random word, resetting the game state, and starting the timer.
+
+The updateWord(), updateGuess(), updateWins(), and updateLosses() functions are responsible for updating the corresponding HTML elements with the current state of the game.
+
+The endGame() function is called when the game is won or lost, clears the timer, updates the win or loss count, and displays an alert message.
+
+The document.addEventListener() function listens for a key press from the user and updates the game state accordingly.
+
+The startButtonEl.addEventListener() function listens for a click on the start button and initializes the game.
+
+## Variables
 
 wordEl: reference to the element that displays the word being guessed
 

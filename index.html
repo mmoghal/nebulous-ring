@@ -1,25 +1,37 @@
+<!-- Define the document type and language -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Word Guessing Game</title>
-  <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-  <header>
-    <h1>Word Guessing Game</h1>
-  </header>
-  <main>
-    <div id="game-container">
-      <p id="word-display"></p>
-      <p id="guesses-left"></p>
-      <p id="win"></p>
-      <p id="lose"></p>
-      <p id="timer"></p>
-      <button id="startButton">Start Game</button>
-    </div>
-  </main>
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <!-- Head section with metadata and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <!-- Body section with header, main content and script -->
+  <body>
+    <!-- Header with game title -->
+    <header>
+      <h1>Word Guessing Game</h1>
+    </header>
+    <!-- Main section with game elements -->
+    <main>
+      <div id="game-container">
+        <!-- Display the current word with blanks and guessed letters -->
+        <p id="word-display"></p>
+        <!-- Display the guessed letters and remaining guesses -->
+        <p id="guesses-left"></p>
+        <!-- Display the win count -->
+        <p id="win"></p>
+        <!-- Display the loss count -->
+        <p id="lose"></p>
+        <!-- Display the remaining time -->
+        <p id="timer"></p>
+        <!-- Button to start the game -->
+        <button id="startButton">Start Game</button>
+      </div>
+    </main>
+    <!-- JavaScript code to run the game -->
+    <script src="./script.js"></script>
+  </body>
 </html>
