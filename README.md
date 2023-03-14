@@ -96,7 +96,7 @@ No installation is necessary. Simply open the index.html file in a web browser t
 
 ## Credits
 
-This application was developed by Muhammad Moghal, with special thanks to the open source community on GitHub for providing guidance and support during the development process.
+This application was developed by Muhammad Moghal, with special thanks to the largest open source community in the world, GitHub, for providing a space to showcase our deployed application.
 
 ## License
 
