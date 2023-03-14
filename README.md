@@ -93,3 +93,11 @@ No installation is necessary. Simply open the index.html file in a web browser t
 2. Application Image
 
 ![alt Image of the application](https://github.com/mmoghal/nebulous-ring/blob/main/wgg.png)
+
+## Credits
+
+This application was developed by Muhammad Moghal, with special thanks to the open source community on GitHub for providing guidance and support during the development process.
+
+## License
+
+MIT License
